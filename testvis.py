@@ -170,10 +170,6 @@ def test(model_to_test, current_fold, plane, rst_dir, vis):
     print "mean: ", dsc_mean
     print "std: ", dsc_std
 
-    dir1 = model_to_test.split("/")[0]
-    if not os.path.exists(rst_path + dir1):
-        os.mkdir(rst_path + dir1)
-
     # record test result case by case
     np.savetxt(rst_path + model_to_test + ".csv", dsc, fmt = "%i, %.5f", delimiter=",", header="case_num,DSC")
 
