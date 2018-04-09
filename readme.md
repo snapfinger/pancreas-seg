@@ -7,6 +7,8 @@ We propose a U-Net based approach for pancreas segmentation. Under the same sett
 
 ### Main Dependencies
 ----------
+- python (2.7)
+
 - tensorflow-gpu (1.3.0)
 
 - Keras (2.0.8)
