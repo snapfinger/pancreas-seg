@@ -1,7 +1,7 @@
 # Pancreas Segmentation in Abdominal CT Scans
 ### Introduction
 ---------
-This is the code repository for the abstract [Pancreas Segmentation in Abdominal CT Scans](http://perfectroc.com/publication/Yijun_ISBI181page_final.pdf) presented at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/). The code for data preparation, test and utilities is largely from [OrganSegC2F](https://github.com/198808xc/OrganSegC2F). Please follow their requirements if you want to use the code in your work. There are no restrictions other than this.
+This is the code repository for the abstract [Pancreas Segmentation in Abdominal CT Scans](Yijun_ISBI181page_final.pdf) presented at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/). The code for data preparation, test and utilities is largely from [OrganSegC2F](https://github.com/198808xc/OrganSegC2F). Please follow their requirements if you want to use the code in your work. There are no restrictions other than this.
 
 We propose a U-Net based approach for pancreas segmentation. Under the same setting where bounding boxes are provided, this method outperforms previously reported results with a mean Dice Coefficient of 86.70 for the NIH dataset with 4-fold cross validation. Results show that a network designed specifically for and trained from scratch with biomedical images can achieve a better performance with much less training time compared to fine-tuning the models that are designed for and pre-trained on natural images.
 
